@@ -1,6 +1,6 @@
 #include "Customs/QuitButtonScript.hpp"
 
-QuitButtonScript::QuitButtonScript (GameObject *owner) : Script(owner) {}
+QuitButtonScript::QuitButtonScript(GameObject *owner) : Script(owner) {}
 
 void QuitButtonScript::Start() {
     m_uiButton = (UIButton *)GetOwner()->GetComponent("UIButton");
